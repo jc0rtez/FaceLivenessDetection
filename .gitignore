@@ -1,0 +1,11 @@
+# Ignorar el script de publicación
+publish_github.sh
+build_xcframework.sh
+*.sh
+
+# Ignorar binarios locales (si vas a subirlos a un release de GitHub, no deben estar en el repositorio de código)
+*.xcframework
+*.xcarchive
+*.zip
+build/
+.DS_Store
