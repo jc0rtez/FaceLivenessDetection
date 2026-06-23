@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FaceLivenessDetectionBinary",
-            url: "https://github.com/jc0rtez/FaceLivenessDetection/releases/download/1.0.2/FaceLivenessDetection.xcframework.zip",
+            url: "https://github.com/jc0rtez/FaceLivenessDetection/releases/download/1.0.3/FaceLivenessDetection.xcframework.zip",
             checksum: "b3d51d2f23fdc4d3edb0d5ca7bae4ae1d3861d63c6ae23e9317dfbc88bc4b096"
         ),
         .target(
